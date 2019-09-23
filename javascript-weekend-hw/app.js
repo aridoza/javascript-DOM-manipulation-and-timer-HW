@@ -48,6 +48,15 @@ secondVariable = "Five";
 // 6. What is the value of firstVariable?
 // firstVariable's value is  5
 
+//2. Create a variable called yourName and set it equal 
+// to your name as a string. Then, write an expression 
+// that takes the string "Hello, my name is " and the 
+// variable yourName so that it returns a new string with them concatenated. 
+let yourName = "Ariel";
 
+const greeting = (name) => {
+    return "Hello, my name is " + name;
+};
+greeting(yourName);
 
 
