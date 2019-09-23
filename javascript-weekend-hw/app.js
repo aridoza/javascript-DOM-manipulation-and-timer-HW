@@ -105,3 +105,17 @@ const moo = (animal) => {
 
 moo(animal);
 
+
+// E. Driver's Ed.
+// Make a variable that holds a person's age. Be semantic.
+// Write code that will print out "Here are the keys!", if the age is 16 years or older, or, if the age is younger than 16, a message should print "Sorry, you're too young."
+
+let age;
+
+const readyToDrive = (driverAge) => {
+    driverAge >= 16
+        ? console.log("Here are the keys!")
+        : console.log("Sorry, you're too young.");
+};
+
+readyToDrive(16);
