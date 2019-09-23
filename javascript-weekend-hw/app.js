@@ -1,5 +1,6 @@
 // I. Variables & Datatypes
 
+// A. Q & A
 // 1. How do we assign a value to a variable?
 // use the assignment operator '=' to assign a value
 // ex: const thing1 = 'the thing';
@@ -29,4 +30,24 @@
 // 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 // Should spend about 75-90% of your time thinking about/planning how you're going to solve a problem, and about 10-25% of your time
 // actually typing in the code to solve it
+
+
+
+
+// B. Strings
+// 1. Create a variable called firstVariable.
+let firstVariable;
+// 2. Assign it the value of the string "Hello World"
+firstVariable = "Hello World";
+// 3. Change the value of this variable to some number.
+firstVariable = 5;
+// 4. Store the value of firstVariable in a new variable called secondVariable
+let secondVariable = firstVariable;
+// 5. Change the value of secondVariable to any string.
+secondVariable = "Five";
+// 6. What is the value of firstVariable?
+// firstVariable's value is  5
+
+
+
 
